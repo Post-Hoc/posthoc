@@ -1,2 +1,2 @@
-# posthoc
-The plain site about to Post Hoc.
+# post hoc
+The plain site about to Post Hoc - Confecções e Serigrafia.
