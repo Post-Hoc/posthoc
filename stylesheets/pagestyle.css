@@ -1,0 +1,144 @@
+body {
+	min-width: 320px;
+    background-attachment:scroll;
+	background-image: url("../images/page-bg.png");
+	background-repeat: repeat;
+	background-color: rgb(235, 229, 185); /*#e8e8e8;*/
+	color: rgb(11, 11, 13);
+	border-style: none dashed;
+	border-width: 0.2ex;
+	border-color: white;
+	font-size-adjust: 1.0;
+	font-family: "Montserrat", Verdana, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;	
+}
+header {
+	background-attachment: scroll;
+	background-color: rgb(205, 185, 70);
+	background-image: url("../images/bgh.png");
+
+}
+
+#logomarca {
+	min-height: 10ex;
+	min-width: 250px;
+	width: 80%;
+	max-width: 98%;
+}
+
+nav {
+	background-image: url("../images/bgb2.png");
+	background-attachment: fixed;
+	background-color: #222;
+	padding: 2ex;
+	text-align: center;
+	color: white;
+	line-height: 2em;
+
+}
+
+nav a {
+	color: white;
+	padding: 2ex;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: rgb(235, 229, 185);
+	color: rgb(11, 11, 13);
+}
+
+
+.main section{
+	padding: 2em;
+}
+.l1{
+background-color: rgb(235, 229, 185);
+}
+.l0{
+background-color: rgb(255,255,255);
+}
+
+.l1 h1{
+border-color: white;
+}
+
+.l0 h1{
+border-color: rgb(235, 229, 185);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 220%;
+	text-align: center;
+	text-decoration: none;
+	border-style: dashed none;
+}
+
+p{
+	padding: 2em;
+	font-size: 120%;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 3ex;
+}
+
+footer {
+	padding: 0.5em 1em 1.5em 1em;
+	background-color: rgb(11, 11, 13);	
+	background-image: url("../images/bgb2.png");
+	min-width: 95%;
+	text-align: center;
+	color: white;
+	bottom: 0;
+
+}
+
+@media screen and (min-width: 550px){
+
+header, .main, p, body{
+	padding:0;
+} 
+
+#logomarca{
+	width: 90%;
+}
+
+#googleMap{
+	min-width: 250px;
+	min-height: 250px;
+}
+}
+
+@media print{
+
+	body{
+		font-family: times;
+		background-color: white;
+		color: black;
+		font-size: 12pt;
+		font-weight: normal;
+		border: none;
+		text-align: justify left;
+	}
+	h1, section{
+		border: none;
+		text-align: justify left;
+		font-size: 14pt;
+		font-family: times;
+		padding: 0;
+		line-height: normal;
+	}
+	nav, footer, nav a, p{
+		background-color: white;
+		color: black;
+		font-family: times;
+		padding:0;
+		line-height: normal;
+		font-size: 12pt;
+	}
+}
